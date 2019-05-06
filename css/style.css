@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+body{
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    max-width: 90px;
+    padding-top: 3px;
+}
+nav{
+    float: left;
+    width: 80%;
+    text-align: right;
+}
+nav ul{}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+nav ul li a:hover{
+    background-color: #333;
+    color: #fff;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.project-link{
+    text-align: center;
+}
+.project-link li{
+    list-style: none;
+    display: inline;
+}
+.project-link li a{
+    text-decoration: none;
+    background: seagreen;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #4a4a4a59;
+    border-bottom: 5px solid #257147;
+    transition: all 0.4s ease;
+}
+.project-link li a:hover{
+    background: orange;
+    border-bottom: 5px solid #bb7b04;
+}
+.service{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.service-content{
+    background: #d4d4d4;
+    color: #484848;
+    padding: 35px 25px;
+    box-shadow: 5px 5px 10px #0000006e;
+}
+.service-content h2{
+    color: #212121;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.service-content p{
+    font-size: 18px;
+}
+
+.portfolio-section{
+    background: #d4d4d4;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.portfolio-section h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #616161;
+}
+.portfolio{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.portfolio img{
+    max-width: 100%;
+    display: block;
+    width: 380px;
+    height: 250px;
+    border-radius: 5px;
+}
+
